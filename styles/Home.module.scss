@@ -1,0 +1,53 @@
+@use "variables";
+
+.home_section {
+    text-align: center;
+    .hero_section {
+        margin: 180px 0 0 0;
+        .profile_image {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+        }
+        .info_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            p {
+                font-size: 1.6rem;
+                font-weight: light;
+            }
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media (max-width: variables.$sm) {
+    .home_section {
+        margin-top: 17px;
+        .hero_section {
+            margin-top: 110px;
+            .profile_image {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+            .info_container {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (min-width: variables.$sm) and (max-width: variables.$lg) {
+    .home_section {
+        .hero_section {
+            .summary_container {
+                margin: 50px 4%;
+            }
+        }
+    }
+}

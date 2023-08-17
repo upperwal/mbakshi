@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Bold.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Regular.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("./fonts/Quicksand-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+
+
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Bold.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Regular.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Teko;
+	src: url("./fonts/teko/Teko-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url("./fonts/raleway/Raleway-Light.ttf") format("truetype");
+	font-weight: 100;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Teko';
+}
+
+button {
+	padding: 7px 35px 5px 35px;
+	background-color: #111111;
+	color: #ffffff;
+	box-shadow: none;
+	font-family: 'Teko';
+	font-size: 1.4rem;
+	width: fit-content;
+	border: none;
+	margin: 20px 0;
+	cursor: pointer;
+}
