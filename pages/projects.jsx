@@ -50,15 +50,18 @@ export default function Projects() {
                         profile={true}
                     />
                 </Grid>
-                {/* <Grid item xs={12} md={6} lg={3}>
+                <Grid item xs={12} md={6} lg={4}></Grid>
+                <Grid item xs={12} md={6} lg={4}>
                     <TextBox 
                         title="PROJECT"
                         category="SC"
                         img={SCImg}
-                        description="DRAG QUEEN IN THE MAKING"
+                        description="A curious 30 year old boy, finds himself fascinated by the artistry of skirts. He is captivated by the garment's graceful flow and appreciates the elegance they exude on women, all while respectfully admiring their personal space and choices."
                         profile={true}
                     />
-                </Grid> */}
+                </Grid>
+                <Grid item xs={12} md={6} lg={4}></Grid>
+                
             </Grid>
 
 
