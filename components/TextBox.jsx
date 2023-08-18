@@ -12,9 +12,10 @@ export default function TextBox(props) {
             <Image 
                 src={props.img} 
                 alt="Cover"
+                className={props.profile ? styles.profile : ''}
             />
             <h3>{props.title}<span className={styles.category}>{" / " + props.category}</span></h3>
-            <p>{props.description}</p>
+            <p className={props.profile ? styles.profile : ''}>{props.description}</p>
         </div>
     )
 }

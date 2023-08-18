@@ -8,6 +8,12 @@ import ThesisImg from '@/public/images/projects/thesis.png';
 import ResidentialImg from '@/public/images/projects/residential.png';
 import LeisureImg from '@/public/images/projects/leisure_space.png';
 
+import VTImg from '@/public/images/profile/vt.jpg';
+import SPImg from '@/public/images/profile/sp.jpg';
+import AUImg from '@/public/images/profile/au.jpg';
+import SCImg from '@/public/images/profile/sc.jpg';
+
+
 import styles from '@/styles/Projects.module.scss';
 
 export default function Projects() {
@@ -44,6 +50,50 @@ export default function Projects() {
                         link={'/documents/projects.pdf'}
                     />
                 </Grid>
+            </Grid>
+
+            <div className={styles.space}> </div>
+
+            <div className={styles.heading}>
+                <h1><span className={styles.light}>PERSONAL</span> PROJECTS</h1>
+            </div>
+            <Grid container spacing={12}>
+                <Grid item xs={12} md={6} lg={4}>
+                    <TextBox 
+                        title="PROJECT"
+                        category="VT"
+                        img={VTImg}
+                        description="LESS SAID THE BETTER"
+                        profile={true}
+                    />
+                </Grid>
+                <Grid item xs={12} md={6} lg={4}>
+                    <TextBox 
+                        title="PROJECT"
+                        category="SP"
+                        img={SPImg}
+                        description="WORK UNDER PROGRESS"
+                        profile={true}
+                    />
+                </Grid>
+                <Grid item xs={12} md={6} lg={4}>
+                    <TextBox 
+                        title="PROJECT"
+                        category="AU"
+                        img={AUImg}
+                        description="AI HUMANOID PROJECT"
+                        profile={true}
+                    />
+                </Grid>
+                {/* <Grid item xs={12} md={6} lg={3}>
+                    <TextBox 
+                        title="PROJECT"
+                        category="SC"
+                        img={SCImg}
+                        description="DRAG QUEEN IN THE MAKING"
+                        profile={true}
+                    />
+                </Grid> */}
             </Grid>
         </section>
     )

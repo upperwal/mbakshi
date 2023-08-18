@@ -7,7 +7,7 @@ export default function Contact() {
         <section className={styles.contact_container}>
             <h2>Contact</h2>
             <Link href="mailto:hi@mbakshi.com">
-                <h3>hi@mbakshi.com</h3>
+                <h3>reachout@mbakshi.com</h3>
             </Link>
         </section>
     )

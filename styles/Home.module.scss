@@ -3,7 +3,7 @@
 .home_section {
     text-align: center;
     .hero_section {
-        margin: 180px 0 0 0;
+        margin: 160px 0 0 0;
         .profile_image {
             width: 400px;
             height: 400px;
@@ -15,8 +15,12 @@
             justify-content: center;
             text-align: left;
             p {
-                font-size: 1.6rem;
+                font-size: 1.1rem;
                 font-weight: light;
+                text-align: justify;
+                line-height: 1.8rem;
+
+                font-family: Gilroy;
             }
             h1 {
                 font-size: 4rem;
@@ -37,6 +41,14 @@
             }
             .info_container {
                 text-align: center;
+                align-items: center;
+                p {
+                    padding: 0 20px;
+                }
+                h1 {
+                    line-height: 4.1rem;
+                    margin-bottom: 20px;
+                }
             }
         }
     }
